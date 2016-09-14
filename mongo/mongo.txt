@@ -1,0 +1,83 @@
+/*usar una bd*/
+use nombre bd
+use dbescort
+
+/*variable*/
+variable={atributo="valor"}
+
+Usuario={Nombre:"Marlon", Apellido:"Caceres", Usuario:"ricky3021", Contrasenia:"Ricardo_2",TipoUsuario:"SuperAdministrador"}
+
+/*insertar en una coleccion*/
+db.usuarios.insert(Usuario)
+db.(tabla o coleccion).insert(variable)
+
+/*ver todas las colecciones*/
+show collections
+
+/*ver todos os datos de una coleccion*/
+db.usuarios.find()
+
+/*Ver un solo registro*/
+db.usuarios.findOne()
+
+/*Almacenar en una variable*/
+var test=db.usuarios.findOne()
+/*muestra el contenido de la variable*/
+test
+
+/*where, presenta un resultado donde el nombre es igual a otro*/
+test_dos=db.usuarios.find({nombre:"Otro"})
+
+test_dos=db.usuarios.find({nombre:"Otro", edad:22})
+
+/*Variables*/
+uno = {nombre:"Test uno"}
+dos = {nombre:"Test dos"}
+
+/*insertar multiples valores*/
+db.usuarios.insert ([uno,dos])
+
+/*Mostrar un campo o columna de un registro*/
+test.nombre
+
+/*Actualizar 1ra forma*/
+test.nombre="nuevo nombre"
+db.usuarios.save(test)
+
+/*Actualizar 2da forma*/
+test.nombre="nuevo nombre"
+db.usuarios.update({"nombre":"Test uno"}, test)
+
+/*Actualizar 3ra forma*/
+test.nombre="nuevo nombre"
+db.usuarios.update({"nombre":"Test"}, {$set: {nombre:"CF"}})
+
+/*actualiza todos*/
+test.nombre="nuevo nombre"
+db.usuarios.update({"nombre":"Test"}, {$set: {nombre:"CF"}},{multi:true})
+
+/*elimina un campo o todos*/
+db.usuarios.update({}, {$unset: {example:1}})
+db.usuarios.update({}, {$unset: {example:1}},{multi:true})
+
+/*eliminar un dato o documento*/
+db.usuarios.remove({nombre:"Test uno"})
+
+/*vaciar toda la collecion*/
+db.usuarios.remove({})
+
+/*eliminar coleccion*/
+db.usuarios.drop()
+
+/*eliminar bd*/
+db.dropDatabase()
+
+/*llamar registros especificos*/
+db.libros.find({filtro},{muestra lo q queremos 1, oculta los datos 0})
+db.libros.find({},{nombre:1, _id:0})
+
+/*operadores ($gt >; $gte >=; $lt <; $lte <=)*/
+db.libros.find({primera_edicion:{$gt:2000}})
+
+db.libros.find({primera_edicion:{$gt:2000}},{nombre:1})
+db.libros.find({primera_edicion:{$gt:2000,$lte:2000}},{nombre:1})
