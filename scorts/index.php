@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>¿Eres mayor de 18 años?</h1>
-	<button>Si</button>
-	<button>No</button>
+	<a href="home.php"><button>Si</button></a>
+	<a href="#"><button>No</button></a>
 </body>
 </html>

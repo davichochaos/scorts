@@ -48,18 +48,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="home.php">HOME <span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACOMPAÑANTES <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">HOMBRES</a></li>
-            <li><a href="#">MUJERES</a></li>
+            <li><a href="hombre.php">HOMBRES</a></li>
+            <li><a href="mujer.php">MUJERES</a></li>
           </ul>
         </li>
-        <li><a href="#">LICORES</a></li>
-        <li><a href="#">LUGARES</a></li>
-        <li><a href="#">TRANSPORTE</a></li>
-        <li><a href="#">SEXSHOP</a></li>
+        <li><a href="licor.php">LICORES</a></li>
+        <li><a href="lugar.php">LUGARES</a></li>
+        <li><a href="transporte.php">TRANSPORTE</a></li>
+        <li><a href="tienda.php">SEXSHOP</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
