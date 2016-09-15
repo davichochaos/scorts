@@ -6,6 +6,59 @@
 	<div id="header">
 			<?php require_once '../scorts/header.php'; ?>
 	</div>
+
+	<div class="row">
+		<div class="col-md-2">
+			asdasdasdasdfdasdasdfas
+		</div>
+		<div class="col-md-10">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+			</div><br>
+			
+			<div class="row">
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+				<div class="col-md-3">
+					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="footer">
 			<?php require_once '../scorts/footer.php'; ?>
 	</div>
