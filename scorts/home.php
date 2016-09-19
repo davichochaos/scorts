@@ -4,7 +4,7 @@
 <body>
 	
 		<div id="header">
-			<?php require_once '../scorts/header.php'; ?>
+			<?php require_once '../scorts/plantillas/header.php'; ?>
 		</div>
     <div class="container">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -48,7 +48,7 @@
 </div>
 </div>
 		<div id="footer">
-			<?php require_once '../scorts/footer.php'; ?>
+			<?php require_once '../scorts/plantillas/footer.php'; ?>
 		</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
