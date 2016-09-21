@@ -14,7 +14,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="gridSystemModalLabel">Ingreso de Tiendas</h4>
+        <h4 class="modal-title" id="gridSystemModalLabel">Ingreso de Transporte</h4>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -23,10 +23,22 @@
             <div class="form-group">
               <div class="row">
                 <div class="col-md-4">
-                  <label>Nombre:</label>
+                  <label>Precio:</label>
                 </div>
                 <div class="col-md-4">
                   <input type="text" name="cantidad_producto" placeholder="50">
+                </div>
+              </div>        
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-4">
+                  <label>Tipo:</label>
+                </div>
+                <div class="col-md-4">
+                  <select>
+                    <option></option>
+                  </select>
                 </div>
               </div>        
             </div>
@@ -37,16 +49,6 @@
                 </div>
                 <div class="col-md-4">
                   <input type="file" name="imagen_producto" >
-                </div>
-              </div>        
-            </div>
-            <div class="form-group">
-              <div class="row">
-                <div class="col-md-4">
-                  <label>Descripcion:</label>
-                </div>
-                <div class="col-md-4">
-                  <textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26"></textarea>
                 </div>
               </div>        
             </div>
