@@ -2,6 +2,7 @@
 <html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" type="text/css" href="./main.css">
 <body>
 	<div id="header">
 			<?php require_once '../scorts/plantillas/header.php'; ?>
@@ -12,50 +13,60 @@
 			asdasdasdasdfdasdasdfas
 		</div>
 		<div class="col-md-10">
-			<div class="row">
+			<div class="row centrar">
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 			</div><br>
 
-			<div class="row">
+			<div class="row centrar">
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
-				</div>
-			</div><br>
-			
-			<div class="row">
-				<div class="col-md-3">
-					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
-				</div>
-				<div class="col-md-3">
-					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
-				</div>
-				<div class="col-md-3">
-					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
-				</div>
-				<div class="col-md-3">
-					<img src="http://as01.epimg.net/ocio/imagenes/2015/09/30/album/1443597740_157045_1443616435_album_grande.jpg" width="120">
+					<h4>Patito</h4>
+					<span>Vista: 0 veces</span><br>
+					<a class="btn btn-success" href="">Ver</a>
 				</div>
 			</div>
+			<br>
 		</div>
 	</div>
 

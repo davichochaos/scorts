@@ -2,6 +2,7 @@
 <html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" type="text/css" href="./main.css">
 <body>
 	<div id="header">
 			<?php require_once '../scorts/plantillas/header.php'; ?>
@@ -12,50 +13,60 @@
 			asdasdasdasdfdasdasdfas
 		</div>
 		<div class="col-md-10">
-			<div class="row">
+			<div class="row centrar">
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 			</div><br>
 
-			<div class="row">
+			<div class="row centrar">
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 				<div class="col-md-3">
 					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
+					<h4>Ron Motor Head</h4>
+					<span>Visto: 0 veces</span><br>
+					<a class="btn btn-success" href="">Agregar al carrito</a>
 				</div>
 			</div><br>
-			
-			<div class="row">
-				<div class="col-md-3">
-					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
-				</div>
-				<div class="col-md-3">
-					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
-				</div>
-				<div class="col-md-3">
-					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
-				</div>
-				<div class="col-md-3">
-					<img src="http://mackmyra.com/wp-content/uploads/motoerhead_boeurbon_prodbild_2015_new_frilagd.jpg" width="120">
-				</div>
-			</div>
+					
 		</div>
 	</div>
 

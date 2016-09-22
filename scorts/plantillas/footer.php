@@ -4,13 +4,13 @@
 <footer>
 	<center>
 		<div class="row">
-			<div class="col-md-4">
-				logo
+			<div class="col-md-3">
+				<img class="img-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png">
 			</div>
-			<div class="col-md-4">
-				mapa de navegacion
+			<div class="col-md-6">
+				<?php require_once './mapa.php';?>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 				contactos
 			</div>
 		</div>
