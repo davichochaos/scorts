@@ -7,7 +7,7 @@
 <body>
 
 <!-- Large modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-licor-modal-lg">Large modal</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-licor-modal-lg">Nuevo Producto</button>
 
 <div class="modal fade bs-licor-modal-lg" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
   <div class="modal-dialog" role="document">
@@ -60,7 +60,7 @@
                   <label>Descripcion:</label>
                 </div>
                 <div class="col-md-4">
-                  <textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26"></textarea>
+                  <textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26" style="resize: none"></textarea>
                 </div>
               </div>        
             </div>

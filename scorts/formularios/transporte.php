@@ -7,7 +7,7 @@
 <body>
 
 <!-- Large modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-licor-modal-lg">Large modal</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-licor-modal-lg">Nuevo Transporte</button>
 
 <div class="modal fade bs-licor-modal-lg" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
   <div class="modal-dialog" role="document">

@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 </head>
 <body>
-
 	<div class="row">
 		<div class="col-md-1 col-xs-2"></div>
 		<div class="col-md-10 col-xs-10" id="formulario">
@@ -134,7 +133,7 @@
 							<label for="exampleInputEmail1">Detalle:</label>
 						</div>
 						<div class="col-md-4">
-							<textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26"></textarea>
+							<textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26" style="resize: none"></textarea>
 						</div>
 					</div>				
 				</div>
@@ -173,16 +172,18 @@
 					</div>				
 				</div>
 
-				<div class="form-group">
+				
+			</form>
+			</div>
+
+		</div>
+		<center><div class="form-group">
 					<div class="row">
 						<div class="col-md-12 col-xs-12">
 							<input type="submit" class="btn btn-default" value="Registar">
 						</div>
 					</div>				
-				</div>
-			</form>
-			</div>
-		</div>
+				</div></center>
 		<div class="col-md-1 col-xs-2"></div>
 	</div>
 </body>

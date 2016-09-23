@@ -78,7 +78,7 @@
 							<label>Descripcion de Habitacion:</label>	
  						</div>
  						<div class="col-md-4">
- 							<textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26"></textarea>
+ 							<textarea rows="5" cols="43" name="detalle_producto" placeholder="Zapato Dama talla 26" style="resize: none"></textarea>
  						</div>
  					</div>				
  				</div>

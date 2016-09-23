@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Insertar Producto</title>
 	<link rel="stylesheet" type="text/css" href="../main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 </head>
@@ -14,7 +13,7 @@
 		<div class="col-md-1 col-xs-2"></div>
 		<div class="col-md-10 col-xs-10" id="formulario">
 			<div class="row">
-			<h1>Ingreso de Acompañantes</h1>
+			<h1>Ingreso de Usuarios</h1>
 			<div class="centrar">
 				<?php
 				switch ($error) {
